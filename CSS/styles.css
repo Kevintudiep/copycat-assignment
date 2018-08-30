@@ -1,0 +1,103 @@
+.container {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+
+}
+
+header {
+  background-color: #06D6A0;
+  height: 70px;
+
+}
+
+h1 {
+  color: white;
+  padding: 20px 20px 20px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 22px;
+  color: white;
+  padding-left: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav > ul {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  text-decoration: none;
+  padding: 20px 20px 20px 20px;
+}
+
+.meow {
+  grid-column: 2/3;
+  background-color: darkblue;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 97% 3%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.cats {
+  grid-column: 2/3;
+  background-color: #FFD166;
+  padding: 20px 20px 20px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.product {
+  grid-column: 2/3;
+  background-color: lightgrey;
+  padding: 20px 20px 20px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pushu {
+  display: inline-block;
+  width: 33.33%;
+  padding: 1px;
+  border-style: solid;
+}
+
+.about {
+    grid-column: 2/3;
+    background-color: darkblue;
+    padding: 20px 20px 20px 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subheader {
+  display: block;
+  float: right;
+  color: red;
+}
+
+.about > p {
+  color: white;
+}
+
+footer {
+  background-color: #06D6A0;
+  color: white;
+  width: 100%;
+  text-align: right;
+  border-top: 50px;
+  border-bottom: 50px;
+}
